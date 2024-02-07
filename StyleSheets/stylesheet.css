@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(255, 238, 247);
+}
+
+.wrapper {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+#gif {
+  width: 50px;
+  height: 50px;
+}
+#message {
+  border-radius: 10px;
+  width: 90%;
+  z-index: 1;
+}
+#message:hover {
+  background-color: rgb(253, 227, 241);
+  opacity: 20%;
+}
+.floating {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}

@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(255, 238, 247);
+}
+h1 {
+  font-family: Consolas, monaco, monospace;
+  font-weight: bold;
+  font-size: x-large;
+  color: #b51a3a;
+}
+p {
+  font-family: Consolas, monaco, monospace;
+  font-weight: bold;
+  font-size: medium;
+  color: #7c152f;
+}
+.mainContainer {
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#noButton {
+  position: absolute;
+  margin-left: 20vh;
+}
+#yesButton {
+  margin-left: -20vh;
+  margin-right: 10px;
+}
+.btnContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+}
+button {
+  background-color: #e16176;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: #f00e34;
+}
