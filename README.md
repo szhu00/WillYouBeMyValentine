@@ -1,6 +1,6 @@
-#The Answer has to be YES dummie >:)
+# The Answer has to be YES dummie >:)
 
-#Get Started 
+# Get Started 
 - Clone the repository 
 - cd into the folder you store the respository 
 - Open up files in your choices of text-editor
