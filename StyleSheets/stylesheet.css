@@ -1,17 +1,18 @@
 body {
+  background-image: url("/Assets/background.png");
   background-color: rgb(255, 238, 247);
+  background-size: 1500px;
 }
 
 .wrapper {
+  vertical-align: middle;
   position: relative;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20vh;
   width: 20%;
 }
-#gif {
-  width: 50px;
-  height: 50px;
-}
+
 #message {
   border-radius: 10px;
   width: 90%;
@@ -34,5 +35,25 @@ body {
   }
   100% {
     transform: translate(0, -0px);
+  }
+}
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20vh;
+  color: brown;
+}
+@media (max-width: 600px) {
+  .wrapper {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  #message {
+    margin-left: 20px;
+  }
+  footer {
+    margin-top: 15vh;
   }
 }
